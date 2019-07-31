@@ -1,3 +1,5 @@
 this is my answer
-Answer 1. grep ^Z cities.txt
-Answer 2. grep gan cities.txt
+Answer 1. grep "^Z" cities.txt
+Answer 2. grep "gan$" cities.txt
+Answer 3. grep "^[ADE]" cities.txt
+Answer 4. grep "\b.ar" cities.txt
