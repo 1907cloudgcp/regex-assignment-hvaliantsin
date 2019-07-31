@@ -1,1 +1,3 @@
 this is my answer
+Answer 1. grep ^Z cities.txt
+Answer 2. grep gan cities.txt
