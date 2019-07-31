@@ -14,3 +14,4 @@ Answer 8?. grep -c "d" cities.txt
 Answer 9. egrep '(.)\1{1}'\\b cities.txt
 
 Answer 10. grep -i b([a-z])([a-z])[a-z]21b cities.txt
+Answer 8. grep "d" -o cities.txt| wc -l
