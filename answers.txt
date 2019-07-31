@@ -1,17 +1,11 @@
 this is my answer
 Answer 1. grep "^Z" cities.txt
-
 Answer 2. grep "gan$" cities.txt
 Answer 3. grep "^[ADE]" cities.txt
-Answer 4. grep -v "^C" cities.txt
+Answer 5. grep -v "^C" cities.txt
 Answer 4. grep "\b.ar" cities.txt
 Answer 6. egrep "\S{14}" cities.txt
-
 Answer 7. grep -c "^B" cities.txt
-
-Answer 8?. grep -c "d" cities.txt
-
 Answer 9. egrep '(.)\1{1}'\\b cities.txt
-
 Answer 10. grep -i b([a-z])([a-z])[a-z]21b cities.txt
 Answer 8. grep "d" -o cities.txt| wc -l
